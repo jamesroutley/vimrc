@@ -19,6 +19,14 @@ The awesome version includes a lot of great plugins, configurations and color sc
 
 I also recommend using [the Hack font](http://sourcefoundry.org/hack/) (it's a free and awesome font designed for source code). The Awesome vimrc is already setup to try to use it.
 
+## How do I update from original repo?
+
+    # This only needs to be done the first time
+    git remote add original git@github.com:amix/vimrc.git
+    git fetch original
+    git merge original/master
+    git push
+
 ## How to install the Basic version?
 The basic version is just one file and no plugins. Just copy [basic.vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim) and paste it into your vimrc.
 
