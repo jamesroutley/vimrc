@@ -10,7 +10,7 @@ let b:undo_ftplugin = "setl fo< com< cms<"
 setlocal formatoptions-=t
 
 setlocal comments=s1:/*,mb:*,ex:*/,://
-setlocal commentstring=//\ %s
+setlocal commentstring=;\ %s
 
 setlocal noexpandtab
 
