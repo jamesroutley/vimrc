@@ -3,3 +3,12 @@ set colorcolumn=80
 
 " Copy to/from the macOS clipboard
 set clipboard=unnamed
+
+" Expand folds by default
+set foldlevel=20
+
+" Move around by displayed lines
+noremap  <buffer> <silent> k gk
+noremap  <buffer> <silent> j gj
+noremap  <buffer> <silent> 0 g0
+noremap  <buffer> <silent> $ g$
