@@ -22,3 +22,5 @@ nnoremap T :tabnew<cr>
 au BufRead,BufNewFile *.md setlocal textwidth=80
 
 GitGutterEnable
+
+set number
