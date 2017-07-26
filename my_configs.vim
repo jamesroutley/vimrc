@@ -23,4 +23,11 @@ au BufRead,BufNewFile *.md setlocal textwidth=80
 
 GitGutterEnable
 
+let g:NERDTreeWinPos = "left"
+
 set number
+
+" Enable true color
+set termguicolors
+
+colorscheme dracula
