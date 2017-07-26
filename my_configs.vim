@@ -21,7 +21,7 @@ nnoremap T :tabnew<cr>
 " Auto break Markdown lines at 80 chars
 au BufRead,BufNewFile *.md setlocal textwidth=80
 
-GitGutterEnable
+let g:gitgutter_enabled=1
 
 let g:NERDTreeWinPos = "left"
 
