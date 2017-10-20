@@ -14,8 +14,8 @@ noremap  <buffer> <silent> 0 g0
 noremap  <buffer> <silent> $ g$
 
 " Simplify using tabs
-nnoremap H gT
-nnoremap L gt
+nnoremap ˙ gT
+nnoremap ¬ gt
 nnoremap T :tabnew<cr>
 
 " Auto break Markdown lines at 80 chars
@@ -28,6 +28,6 @@ let g:NERDTreeWinPos = "left"
 set number
 
 " Enable true color
-set termguicolors
+" set termguicolors
 
 colorscheme dracula
