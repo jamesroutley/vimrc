@@ -31,3 +31,5 @@ set number
 " set termguicolors
 
 colorscheme dracula
+
+set foldcolumn=0
